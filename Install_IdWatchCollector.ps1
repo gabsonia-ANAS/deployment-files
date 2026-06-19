@@ -1,0 +1,1 @@
+& 'C:\NGID_Tools\CollectorInstaller\IdWatch Collector Installer.exe' /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="C:\NGID_Tools\IdWatchCollector_install.log" /TASKS="update"

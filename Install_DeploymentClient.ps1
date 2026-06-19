@@ -1,0 +1,1 @@
+& 'C:\NGID_Tools\DeploymentClientInstaller\Deployment Client Installer.exe' /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART "/LOG=C:\NGID_Tools\DeploymentClientInstall.log" 
