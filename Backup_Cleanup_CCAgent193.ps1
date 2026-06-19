@@ -1,6 +1,6 @@
 
 $originalPath = "C:\NextgenId\CCAgent"
-$newName = "CCAgent191_Backedup"
+$newName = "CCAgent18111_Backedup"
 $fullNewPath = "C:\NextgenId\$newName"
 
 try {
@@ -52,12 +52,12 @@ catch {
 }
 
 
-$sourceDir = "C:\NextgenId\CCAgent192\*"
+$sourceDir = "C:\NextgenId\CCAgent193\*"
 $destDir = "C:\NextgenId\CCAgent"
 
 try {
     # 1. Check if the source folder exists (without the wildcard)
-    if (Test-Path -Path "C:\NextgenId\CCAgent192") {
+    if (Test-Path -Path "C:\NextgenId\CCAgent193") {
         
         # 2. Create the destination folder if it's missing
         if (-not (Test-Path -Path $destDir)) {
@@ -68,10 +68,10 @@ try {
         # 3. Copy everything inside (Recurse for subfolders, Force to overwrite)
         Copy-Item -Path $sourceDir -Destination $destDir -Recurse -Force -ErrorAction Stop
         
-        Write-Host "SUCCESS: All contents from CCAgent192 copied to CCAgent." -ForegroundColor Green
+        Write-Host "SUCCESS: All contents from CCAgent193 copied to CCAgent." -ForegroundColor Green
     } 
     else {
-        Write-Host "FAILED: Source folder 'CCAgent192' not found." -ForegroundColor Red
+        Write-Host "FAILED: Source folder 'CCAgent193' not found." -ForegroundColor Red
     }
 }
 catch {
